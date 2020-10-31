@@ -24,4 +24,3 @@ def plot_feature_importances_diabetes(model):
     plt.ylabel("Feature")
     plt.ylim(-1, n_features)
 plot_feature_importances_diabetes(tree)
-plt.savefig('feature_importance')
